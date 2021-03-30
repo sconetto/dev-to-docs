@@ -1,3 +1,91 @@
 site_name: Dev.to Project - Docs
+site_description: Example project for Documentation system.
+
+repo_url: https://github.com/sconetto/dev-to-docs
+repo_name: sconetto/dev-to-docs
+
+edit_uri: edit/main/docs/
+
 theme:
   name: material
+  icon:
+    repo: fontawesome/brands/github
+    logo: fontawesome/solid/comment-alt
+  font:
+    text: Fira Sans
+    code: Fira Mono
+  palette:
+    - teal: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: red
+      accent: indigo
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: red
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.expand
+    - navigation.top
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/sconetto
+      name: Sconetto's Twitter
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/sconetto/
+      name: Sconetto's LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/sconetto
+      name: Sconetto's GitHub
+
+copyright: Copyright &copy; 2021 - 2021 João Pedro Sconetto
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      slugify: !!python/name:pymdownx.slugs.uslugify
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - footnotes
+
+nav:
+  - Home: index.md
+  - Solution:
+      - Overview: solution/overview.md
+      - Architecture: solution/architecture.md
+  - Modules:
+      - Auth API: modules/api-auth.md
+      - Paycheck API: modules/api-paycheck.md
+      - Register API: modules/api-register.md
+      - Vacation API: modules/api-vacation.md
+      - Human Resources UI: modules/front-register.md
+  - Interfaces:
+      - About Interfaces: interfaces/about.md
+      - Auth API Blueprint: interfaces/api-auth.md
+      - Paycheck API Blueprint: interfaces/api-paycheck.md
+      - Register API Blueprint: interfaces/api-register.md
+      - Vacation API Blueprint: interfaces/api-vacation.md
+  - About: about-rh.md

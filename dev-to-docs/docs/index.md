@@ -1,17 +1,16 @@
-# Welcome to MkDocs
+# MSA Docs Study Case: HR System
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This study case contains the HR System documentation, which is a fictional human resources system focused on payroll features of the MARVEL[^1] organization.
+In MARVEL, the human resources area is subdivided into three main areas: registration and maintenance of functional records, payment and benefits to employees, and personnel development.
 
-## Commands
+Despite this focus on payroll, the system has features of the employees registering domain to allow the registration of the employees that will be considered in MARVEL's organization payroll.
+For the system user, the system has two macro requirements:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+1. To function as HR management system, and;
 
-## Project layout
+2. Allow integration of other systems with the data managed on the system.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+This is a web-based system built on the **Microservice Architecture**, consisting of various services and user interfaces, as described in this documentation.
+Despite this modularization, the system is viewed by the user as a single software, so that the modularization is not perceived.
+
+[^1]: Fictional Organization
