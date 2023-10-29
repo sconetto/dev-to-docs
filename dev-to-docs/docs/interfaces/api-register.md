@@ -3,7 +3,7 @@ HOST: https://locahost/api-register/
 
 # Register
 
-Register is a simple API to manage employees. You can view this documentation over at [API Vacation Module](../../modules/api-register).
+Register is a simple API to manage employees. You can view this documentation over at [API Vacation Module](../modules/api-register.md).
 
 API Link: [Paycheck Apiary](https://msadocsregister.docs.apiary.io)
 

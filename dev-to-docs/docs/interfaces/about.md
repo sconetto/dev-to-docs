@@ -6,7 +6,7 @@ This way we can write the blueprint in the chosen language format and easily tra
 
 The following interfaces are documented in the API Blueprint format:
 
-- [Interface - Auth API](./api-auth)
-- [Interface - Paycheck API](./api-paycheck)
-- [Interface - Register API](./api-register)
-- [Interface - Vacation API](./api-vacation)
+- [Interface - Auth API](api-auth.md)
+- [Interface - Paycheck API](api-paycheck.md)
+- [Interface - Register API](api-register.md)
+- [Interface - Vacation API](api-vacation.md)

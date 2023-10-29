@@ -3,7 +3,7 @@ HOST: https://localhost/paycheck
 
 # Paycheck
 
-Paycheck is a API used to manage all workers paycheck, benefits and others questions related to wage. You can view his documentation over at [API Paycheck Module](../../modules/api-paycheck).
+Paycheck is a API used to manage all workers paycheck, benefits and others questions related to wage. You can view his documentation over at [API Paycheck Module](../modules/api-paycheck.md).
 
 API Link: [Paycheck Apiary](https://msadocspaycheck.docs.apiary.io)
 

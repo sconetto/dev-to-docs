@@ -3,7 +3,7 @@ HOST: http://locahost/vacation/
 
 # Vacation
 
-Vacation is a simple API to manage employees vacations and vacation scheduling. You can view this documentation over at [API Vacation Module](../../modules/api-vacation).
+Vacation is a simple API to manage employees vacations and vacation scheduling. You can view this documentation over at [API Vacation Module](../modules/api-vacation.md).
 
 API Link: [Paycheck Apiary](https://msadocsvacation.docs.apiary.io)
 

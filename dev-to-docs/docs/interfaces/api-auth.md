@@ -3,7 +3,7 @@ HOST: https://localhost/auth
 
 # Auth
 
-Auth is a API using Keycloack and JWT to authenticate and manage users in the RH App Domain. You can view his documentation over at [API Auth Module](../../modules/api-auth).
+Auth is a API using Keycloack and JWT to authenticate and manage users in the RH App Domain. You can view his documentation over at [API Auth Module](../modules/api-auth.md).
 
 API Link: [Auth Apiary](http://msadocsauth.docs.apiary.io/)
 
