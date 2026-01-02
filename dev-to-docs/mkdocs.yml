@@ -37,9 +37,6 @@ theme:
 
 extra:
   social:
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/sconetto
-      name: Sconetto's Twitter
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/sconetto/
       name: Sconetto's LinkedIn
